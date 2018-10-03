@@ -57,3 +57,143 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #989898; }
 .c-scrollbar--monkey .c-scrollbar__bar { background: #545454; box-shadow: 0 3px 0 #222, 0 -3px 0 #222; }
 
 .client_channels_list_container { background-color: #363636; border-right-color: #222; }
+
+#col_channels { color: #989898; }
+
+.p-channel_sidebar { background-color: #363636; color: #989898; }
+
+.p-channel_sidebar__channel, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited, .p-channel_sidebar__link:hover { color: rgba(230, 230, 230, 0.8) !important; }
+
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__link--selected:hover { color: #1EB8EB; }
+
+.p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover { background: #222 !important; }
+
+.p-channel_sidebar__header { color: #989898 !important; }
+
+.p-channel_sidebar__channel--im.p-channel_sidebar__channel--selected .c-presence, .p-channel_sidebar__channel--im-slackbot.p-channel_sidebar__channel--selected::before { color: #989898; }
+
+.p-channel_sidebar__channel--im .c-presence--away { color: #949494; }
+
+.p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected { background: #545454 !important; }
+
+.p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover { background: #545454 !important; }
+
+.p-channel_sidebar__channel--selected::before, .p-channel_sidebar__channel--selected:hover::before, .p-channel_sidebar__channel--selected::after, .p-channel_sidebar__channel--selected:hover::after { color: #989898; }
+
+.p-channel_sidebar__link--selected::before, .p-channel_sidebar__link--selected::after { color: #989898; }
+
+.p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions { background: #bf360c; }
+
+.p-channel_sidebar .c-custom_scrollbar__thumb_vertical, .p-channel_sidebar .c-scrollbar__bar { background: #545454; }
+
+.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__quickswitcher:hover { color: whitesmoke !important; }
+
+.p-channel_sidebar__close_container:hover { background: #000; }
+
+.p-channel_sidebar__jumper { background: transparent !important; }
+
+.channels_list_holder h2 { color: #989898 !important; }
+
+.channels_list_holder h2.hoverable:not(.jquery_hover):hover { color: #989898; opacity: 0.8; }
+
+.channels_list_holder ul { color: #989898 !important; }
+
+.channels_list_holder ul li { text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
+
+.channels_list_holder ul li .channel_name, .channels_list_holder ul li .group_name, .channels_list_holder ul li .im_name, .channels_list_holder ul li .mpim_name, .channels_list_holder ul li > a { background: #363636; color: rgba(230, 230, 230, 0.8) !important; }
+
+.channels_list_holder ul li .channel_name:hover, .channels_list_holder ul li .group_name:hover, .channels_list_holder ul li .im_name:hover, .channels_list_holder ul li .mpim_name:hover, .channels_list_holder ul li > a:hover { background: #222 !important; border-bottom-right-radius: 0.25rem; border-top-right-radius: 0.25rem; }
+
+.channels_list_holder ul li .primary_action.im_name:hover .im_name_background, .channels_list_holder ul li .primary_action.feature_user_custom_status:hover .im_name_background, .channels_list_holder ul li .primary_action:not(.feature_user_custom_status):hover { background: #222; }
+
+.channels_list_holder ul li.mention a { color: #989898; }
+
+.channels_list_holder ul li.unread:not(.muted_channel) .primary_action { color: whitesmoke !important; }
+
+.channels_list_holder ul li.unread .prefix { color: #989898 !important; opacity: 1; }
+
+.channels_list_holder .group_close, .channels_list_holder .im_close, .channels_list_holder .mpim_close { color: #949494 !important; }
+
+.channels_list_holder .unread_highlights { background: #bf360c; color: #989898; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
+
+.channels_list_holder .unread_msgs { background: #222; color: #989898; }
+
+#channel_list_invites_link { border-bottom: 1px dotted #949494; color: #949494 !important; font-size: 0.9rem; }
+
+#channel_list_invites_link:hover { border-bottom: 1px solid #949494; }
+
+#quick_switcher_btn { background: #363636; border-top: 2px solid #363636; }
+
+#quick_switcher_btn > i { color: #949494; }
+
+#quick_switcher_btn:active, #quick_switcher_btn:hover { background: #222; border-color: #222; }
+
+#quick_switcher_btn:active > i, #quick_switcher_btn:hover > i { color: #949494; }
+
+#quick_switcher_btn:active #quick_switcher_label, #quick_switcher_btn:hover #quick_switcher_label { color: #949494; }
+
+#quick_switcher_label { color: #949494; }
+
+.loading #loading-zone { background: #222; }
+
+#loading_welcome { background-image: none; }
+
+#loading_message p { color: #989898; }
+
+#loading_message #loading_message_attribution { color: #949494; }
+
+#loading_team_menu_bg, #loading_user_menu_bg { background: #222; border: none; }
+
+.infinite_spinner_bg, .infinite_spinner_blue { stroke: #989898; }
+
+body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: #363636; }
+
+.p-degraded_list__loading { background-color: #222; color: #989898; }
+
+input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { background-color: #545454; border-color: #000; color: #989898; }
+
+input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=date]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus, input[type=number]:focus, input[type=email]:focus, input[type='url']:focus, input[type=tel]:focus, input[type=color]:focus, input[type=search]:focus { border-color: rgba(54, 54, 54, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); }
+
+input[type=file]:focus { outline: #989898 dotted thin; }
+
+input[type=radio]:focus, input[type=checkbox]:focus { outline: #989898 dotted thin; }
+
+select { background: #545454; }
+
+select, textarea { border: 1px solid #000; color: #989898; }
+
+select:active, select:focus, textarea:active, textarea:focus { border-color: #363636; box-shadow: 0 0 7px rgba(130, 130, 130, 0.15); }
+
+input:disabled, input:disabled:active, select:disabled, textarea:disabled { border-color: #424242 !important; }
+
+.no_touch input:hover, .no_touch select:hover, .no_touch textarea:hover { border-color: #363636; }
+
+.no_touch label.select:hover select { border-color: #363636; }
+
+.no_touch label.select:not(.disabled):hover::after { color: #363636; }
+
+label.disabled { color: #989898; }
+
+legend { border-bottom: 1px solid #828282; }
+
+legend small { color: #949494; }
+
+.uneditable-input, .uneditable-textarea { background-color: #424242; border: 1px solid #000; color: #989898; }
+
+.uneditable-input:focus, .uneditable-textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); }
+
+textarea { background-color: #545454; border: 1px solid #000; color: #989898; }
+
+textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); }
+
+::-webkit-input-placeholder { color: #989898 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
+
+::-moz-placeholder { color: #989898 !important; filter: none; opacity: 0.5; }
+
+::placeholder { color: #989898 !important; filter: none; opacity: 0.5; }
+
+[data-placeholder]:empty::before { color: #989898 !important; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #989898 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
+
+input::-moz-placeholder, textarea::-moz-placeholder { color: #989898 !important; filter: none; opacity: 0.5; }
