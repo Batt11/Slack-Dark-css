@@ -1,1 +1,59 @@
-body { background: #66ff99; color: #66ff99; }
+body { background: #222; color: #989898; }
+
+a { color: #949494; }
+
+a:link, a:visited { color: #949494; }
+
+a:hover, a:active, a:focus { color: #c7c7c7; }
+
+hr { border-bottom: 1px solid #424242; border-top: 1px solid #222; }
+
+h1, h2, h3, h4 { color: #989898; }
+
+h1 a { color: #989898; }
+
+h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #989898; }
+
+.bordered { border: 1px solid #363636; }
+
+.top_border { border-top: 1px solid #363636; }
+
+.bottom_border { border-bottom: 1px solid #363636; }
+
+.left_border { border-left: 1px solid #363636; }
+
+.right_border { border-right: 1px solid #363636; }
+
+.bullet { color: #949494; }
+
+.alert, .c-alert, .c-alert--boxed { background-color: #363636; border-color: #000; color: #989898; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
+
+.alert h4, .c-alert h4, .c-alert--boxed h4 { color: #989898; }
+
+.alert-info { background-color: #363636; border-color: #000; color: #989898; }
+
+.alert-info h4 { color: #989898; }
+
+::-webkit-scrollbar-track { background: #363636 !important; border-left-color: #363636 !important; border-right-color: #363636 !important; color: #363636 !important; }
+
+::-webkit-scrollbar-thumb { background: #545454 !important; border-left-color: #363636 !important; border-right-color: #363636 !important; color: #222 !important; }
+
+::-webkit-scrollbar-corner { background: #222 !important; }
+
+.supports_custom_scrollbar #messages_container::after { background: none !important; }
+
+.monkey_scroll_bar { background: #424242; }
+
+.monkey_scroll_handle_inner { background: #545454; border: 1px solid #828282; }
+
+.monkey_scroll_bar_native_scrollbar_shim { background: transparent; }
+
+#client-ui .monkey_scroll_bar { background: #424242; }
+
+#client-ui .monkey_scroll_handle_inner { background: #545454; border: 3px solid #222; }
+
+.c-scrollbar--monkey .c-scrollbar__track { background: #424242; }
+
+.c-scrollbar--monkey .c-scrollbar__bar { background: #545454; box-shadow: 0 3px 0 #222, 0 -3px 0 #222; }
+
+.client_channels_list_container { background-color: #363636; border-right-color: #222; }
